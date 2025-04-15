@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Digital Bookshelf</h1>
+    <a id="newPostBtn" href="/new">New Book</a>
+    <ul id="postsList">
+      <% books.forEach(book=> { %>
+        <li>
+          <h2>
+            <%=book.title%>
+          </h2>
+          <h2>
+            <%=book.author %>
+          </h2>
+          <h2>
+            <%=book.ISBN %>
+          </h2>
+          <h2>
+            <%=book.genre %>
+          </h2>
+          <h2>
+            <%=book.availability %>
+          </h2>
+          <a class="edit" href="/edit/<%= book.id %>">Edit</a>
+          <a class="delete" href="/api/books/delete/<%= book.id %>">Delete</a>
+        </li>
+        <% }); %>
+    </ul>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "ISBN": "978-0-06-112008-4",
+    "genre": "Fiction, Coming-of-Age, Legal Drama",
+    "availability": "12 Available"
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "ISBN": "978-0-452-28423-4",
+    "genre": "Dystopian, Political Fiction, Science Fiction",
+    "availability": "8 Available"
+  },
+  {
+    "id": 3,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "ISBN": "978-0-19-953556-9",
+    "genre": "Romance, Historical Fiction, Satire",
+    "availability": "6 Available"
+  },
+  {
+    "id": 4,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "ISBN": "978-0-7432-7356-5",
+    "genre": "Tragedy, Historical Fiction",
+    "availability": "Not Available"
+  },
+  {
+    "id": 5,
+    "title": "Harry Potter and the Sorcerer's Stone (a.k.a. Philosopher's Stone)",
+    "author": "J.K. Rowling",
+    "ISBN": "978-0-545-01022-1",
+    "genre": "Young Adult, Adventure",
+    "availability": "15 Available"
+  }
+]
